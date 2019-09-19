@@ -15,8 +15,8 @@
         <h1>Simple Note Keeper</h1>
         <h2>Edit Note</h2>
         
-        Title: <input type="text" id="title" size="15"><br>
-        Contents: ​<textarea id="txtArea" rows="10" cols="40"></textarea>
+        Title: <input type="text" name="showTitle" id="title" size="15" value="${note.title}"><br>
+        Contents: ​<input type="text" name="showContent" id="content" size="50" value="${note.content}" style="width: 200px;height:200px">
         <br>
          <input type="submit" value="Save">
     </body>

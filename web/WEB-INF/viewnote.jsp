@@ -18,6 +18,8 @@
         
         <h4>Title: ${note.title}</h4>
         <h4>Content: ${note.content}</h4>
+        
+        <a href="note?edit"> Edit</a>
         </form>
     </body>
 </html>
