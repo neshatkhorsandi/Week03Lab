@@ -68,8 +68,7 @@ public class NoteServlet extends HttpServlet
          n.setTitle(t);
          n.setContent(c);
          
-         request.setAttribute("note", t);
-         request.setAttribute("note", c);       
+         request.setAttribute("note", n);     
          
          pw.write(t+ "\n" + c);
          
